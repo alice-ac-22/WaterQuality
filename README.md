@@ -5,34 +5,21 @@ This project uses the open-access dataset by *Karim et al. (2025)* to predict th
 
 ---
 
-## 📁 Project Structure
-
-| Folder | Purpose |
-|--------|----------|
-| `data/` | Contains sample data or references to dataset location. |
-| `notebooks/` | Step-by-step Jupyter notebooks for each phase of the project. |
-| `src/` | Modular Python code for preprocessing, modeling, and visualization. |
-| `results/` | Stores output plots, metrics, and tables for reporting. |
-| `requirements.txt` | Lists Python dependencies for easy environment setup. |
-| `README.md` | Overview, setup guide, and project explanation. |
-
----
-
-**P.S.** Keep dataset files (.csv) in `.gitignore` if they’re too large, and link to the public source instead.
-
-
----
-
 ## Setup Instructions
 
 Follow the steps to run the project locally:
 
-1. **Clone the repository**
+1. **Get the dataset**
+
+Since the dataset is larger than 25 MB, it can be found and downloaded through the following link:
+https://figshare.com/articles/dataset/A_Comprehensive_Surface_Water_Quality_Monitoring_Dataset_1940-2023_2_82Million_Record_Resource_for_Empirical_and_ML-Based_Research/27800394?utm_source=chatgpt.com&file=50757321
+   
+3. **Clone the repository**
    ```bash
    git clone https://github.com/<your-username>/WaterQuality.git
    cd WaterQuality
 
-2. **Create and activate a virtual environment**
+4. **Create and activate a virtual environment**
 
    python -m venv venv
    
@@ -42,15 +29,15 @@ Follow the steps to run the project locally:
 
    venv\Scripts\activate         # For Windows
 
-4. **Install the dependencies**
+5. **Install the dependencies**
 Python required, then run:
 pip install -r requirements.txt
 
-5. **Download the dataset**
+6. **Download the dataset**
 The dataset is publicly available at:
 https://doi.org/10.6084/m9.figshare.27800394.v2
 
-6. **Run the baseline model**
+7. **Run the baseline model**
 Jupyter notebook:
 notebooks/01_baseline_WQI_prediction.ipynb
 
