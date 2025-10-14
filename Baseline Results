@@ -1,0 +1,7 @@
+Model Performance Analysis:
+
+The model performance shows clear differences among the algorithms. Linear Regression performed moderately with a test R² of 0.4763 and relatively high errors, underperforming compared to the paper’s R² of 0.91. 
+Random Forest and Gradient Boosting achieved near-perfect R² values above 0.999, indicating excellent fit but potential overfitting. 
+ANN showed strong but slightly lower performance than reported in the paper (R² = 0.9344 vs 0.99), while LSTM performed well with a test R² of 0.9726, slightly below the paper’s 0.99. 
+The Decision Tree achieved perfect training fit but slightly higher testing errors than the paper. 
+Overall, tree-based models showed the best performance in our experiments, though deep learning models like ANN and LSTM provide more consistent generalization.
