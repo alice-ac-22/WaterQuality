@@ -1,7 +1,7 @@
 # WaterQuality ML Project
 
 **Machine Learning models for predicting and analyzing global surface water quality (1940–2023)**  
-This project uses the open-access dataset by *Karim et al. (2025)* to predict the **Canadian Council of Ministers of the Environment Water Quality Index (CCME WQI)** and explore further pollutant interrelationships.
+This project uses the open-access dataset by *Karim et al. (2025)* to predict the **Canadian Council of Ministers of the Environment (CCME) Values** and explore further pollutant interrelationships.
 
 ---
 
@@ -26,6 +26,7 @@ Follow the steps to run the project locally:
    venv\Scripts\activate         # For Windows
 
 3. **Install the dependencies**
+
 Python required, then run:
 pip install -r requirements.txt
 
@@ -38,6 +39,7 @@ https://figshare.com/articles/dataset/A_Comprehensive_Surface_Water_Quality_Moni
 5. **Run the baseline model**
 
 It has been uploaded to github repository and named:
+
 aliceandreem.ipynb
 
 
