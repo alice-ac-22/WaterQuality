@@ -12,7 +12,7 @@ Follow the steps to run the project locally:
 1. **Clone the repository**
    Open your terminal (or VS Code) and run:
    ```bash
-   https://github.com/alice-ac-22/WaterQuality.git
+   git clone https://github.com/alice-ac-22/WaterQuality.git
    cd WaterQuality
   
   
