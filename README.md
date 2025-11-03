@@ -10,20 +10,22 @@ A Comprehensive Surface Water Quality Monitoring Dataset (1940–2023) – Figsh
 After downloading, place the CSV file (e.g., combined.csv) in the root project directory.
 
 
+
 **Setup Instructions**
 
-1. Clone the repository
+*1. Clone the repository*
 
 git clone https://github.com/alice-ac-22/WaterQuality.git
+
 cd WaterQuality
 
 
-2. Install dependencies
+*2. Install dependencies*
 
 
-3. Get the dataset
+*3. Get the dataset*
 Download the dataset using the link above and place it in the main project folder (combined.csv).
 
-4. Run the project
+*4. Run the project*
 
-python aliceandreem.py
+    python aliceandreem.ipynb
