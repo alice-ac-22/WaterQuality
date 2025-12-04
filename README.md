@@ -41,7 +41,7 @@ After downloading, place the CSV file (e.g., Combined_dataset.csv) in the root p
 
         MAIN.ipynb
         
-        Store the needed python .py files (functions) available in the main branch of this repository in the *main project folder*, so that they are directly called upon             when running MAIN.ipynb.
+        Store the needed python .py files (functions) available in the main branch of this repository in the *main project folder*, so that they are directly called upon when running MAIN.ipynb.
 
 
 **Repository Structure**
